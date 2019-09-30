@@ -1,0 +1,67 @@
+'''n=2000
+while n<3200:
+    if(n%7==0 and n%5!=0):
+        print(n)
+    n=n+1 
+    
+
+factorial=1 
+n=0 
+print("enter the number for factorial")
+number=int(input())
+while n<number:
+    factorial=factorial*number
+    number=number-1
+print(factorial)
+
+
+n=0 
+first=1 
+second=1 
+print("enter the number for integral")
+number=int(input())
+while number>0:
+    n=first,second
+    first=first+1 
+    second=first*first
+    number=number-1
+    print(n)
+
+reverse=0 
+n=0     
+print("enter a number to find its reverse")
+number=int(input())
+while number>0:
+    reverse=number%10
+    number=int(number/10)
+    n=(n*10)+reverse
+print(n)
+
+
+print("enter how many numbers")
+numbers=int(input())
+n=0 
+sum=0 
+while numbers>n:
+    print("enter the number for addition")
+    num=int(input())
+    sum=sum+num 
+    numbers=numbers-1
+print(sum)'''
+
+
+sum1=0
+sum2=0 
+print("enter how many number")
+number=int(input())
+while number>0:
+    print("enter the number")
+    num=int(input())
+    if(num%2==0):
+        sum1=sum1+num
+    else:
+        sum2=sum2+num 
+    number=number-1
+print(sum1)
+print(sum2)
+
