@@ -1,4 +1,4 @@
-'''n=2000
+n=2000
 while n<3200:
     if(n%7==0 and n%5!=0):
         print(n)
@@ -47,7 +47,7 @@ while numbers>n:
     num=int(input())
     sum=sum+num 
     numbers=numbers-1
-print(sum)'''
+print(sum)
 
 
 sum1=0
@@ -64,4 +64,36 @@ while number>0:
     number=number-1
 print(sum1)
 print(sum2)
+
+print("how many natural numbers in reverse?")
+number=int(input())
+while number>0:
+    print(number)
+    number=number-1
+    
+    
+n=0 
+quotient=0
+last=0
+print("enter the number for sum of first and last digit")
+number=int(input())
+last=number%10
+quotient=int(number/10)
+while quotient>10:
+    quotient=int(quotient/10)
+    n=last+quotient
+print(n)
+
+
+n=0 
+quotient=0
+last=0
+print("enter the number for product of first and last digit")
+number=int(input())
+last=number%10
+quotient=int(number/10)
+while quotient>10:
+    quotient=int(quotient/10)
+    n=last*quotient
+print(n)
 
