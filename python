@@ -97,3 +97,58 @@ while quotient>10:
     n=last*quotient
 print(n)
 
+print("enter the number for it's number name")
+number=int(input())
+if(number==0):
+    print(zero)
+elif(number==1):
+    print("one")
+elif(number==2):
+    print("two")
+elif(number==3):
+    print("three")
+elif(number==4):
+    print("four")
+elif(number==5):
+    print("five")
+elif(number==6):
+    print("six")
+elif(number==7):
+    print("seven")
+elif(number==8):
+    print("eight")
+elif(number==9):
+    print("nine")
+else:
+    print("the number is invalid")
+        
+    
+
+print("enter the base number")
+base=int(input())
+print("enter the power")
+power=int(input())
+result=1 
+while power>0:
+    result=result*base
+    power-=1
+print(result)
+
+
+i=2
+isprime=True 
+print("enter the number")
+number=int(input())
+while number>i:
+    print(i)
+    if(number%i==0):
+        isprime=False
+        break
+    i=i+1
+if(isprime==False):
+    print("the number is not prime")
+else:
+    print("number is prime")
+    
+
+
